@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         redLabel.text = String(format: "%.2f", redSlider.value)
         greenLabel.text = String(format: "%.2f", greenSlider.value)
         blueLabel.text = String(format: "%.2f", blueSlider.value)
-        alphaLabel.text = String(format: ".%2f", alphaSlider.value)
+        alphaLabel.text = String(format: "%.2f", alphaSlider.value)
         
         colorView.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: CGFloat(alphaSlider.value))
     }

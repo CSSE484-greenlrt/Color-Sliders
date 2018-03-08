@@ -102,30 +102,30 @@
                                     <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="BQ8-QM-Gbu"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xlg-4E-O5a">
-                                <rect key="frame" x="322" y="159" width="35" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yft-hB-xjl">
                                 <rect key="frame" x="16" y="238" width="340" height="235"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xlg-4E-O5a">
+                                <rect key="frame" x="324" y="159" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="alphaLabel" destination="f2L-lM-FH8" id="KD2-00-JWE"/>
+                        <outlet property="alphaLabel" destination="Xlg-4E-O5a" id="1sy-jT-41i"/>
                         <outlet property="alphaSlider" destination="2y0-rc-deE" id="k9c-DC-d9U"/>
-                        <outlet property="blueLabel" destination="mQ6-V4-e0r" id="6T1-2d-dDJ"/>
+                        <outlet property="blueLabel" destination="qJh-3u-HM1" id="0K7-Gu-5xa"/>
                         <outlet property="blueSlider" destination="7kS-vY-mf9" id="c8p-4T-TzO"/>
                         <outlet property="colorView" destination="yft-hB-xjl" id="Bbf-gg-19E"/>
-                        <outlet property="greenLabel" destination="s0U-Aa-y70" id="8P8-t2-0wq"/>
+                        <outlet property="greenLabel" destination="9fm-J3-S4w" id="2hQ-cB-gtn"/>
                         <outlet property="greenSlider" destination="D01-14-QfR" id="Z4J-tr-bg7"/>
-                        <outlet property="redLabel" destination="JOh-c4-EZA" id="1M6-cG-sZK"/>
+                        <outlet property="redLabel" destination="VqL-b7-OME" id="kX9-sN-M8Q"/>
                         <outlet property="redSlider" destination="DVI-ot-R0z" id="qG3-5Y-ZxI"/>
                     </connections>
                 </viewController>
